@@ -8,6 +8,13 @@ access to atmospheric monitoring information. This work presents a tool for the 
 University Network of Atmospheric Observatories (RUOA) of the National Autonomous University of Mexico. ATPAD (Accessible Tool for Processing Atmospheric RUOA Data) is a project developed in Python 
 that allows the manipulation and visualization of pre-processed databases in an easy and freely accessible way.
 
+# DIRECTORIES
 
+# PREP_ATPAD
 
+# METEO_ATPAD
+
+# POLLUTION_ATPAD
+
+# VIEW_ATPAD
 
