@@ -13,8 +13,11 @@ that allows the manipulation and visualization of pre-processed databases in an 
 To make the user experience easier, we suggest creating the following directories within the working directory. This will allow for an organized management of input and output files without requiring significant modifications to the code.
 
 METEO_RAW: For meteorological input data.
+
 POLLUTION_RAW: For atmospheric pollution input data.
+
 PARQUET_FILES: For pre-processed data in Parquet format.
+
 OUTPUT_FILES: For output files in CSV format.
     
 ## PREP_ATPAD
