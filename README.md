@@ -10,14 +10,23 @@ University Network of Atmospheric Observatories (RUOA) of the National Autonomou
 that allows the manipulation and visualization of pre-processed databases in an easy and freely accessible way.
 
 ## DIRECTORIES
+To make the user experience easier, we suggest creating the following directories within the working directory. This will allow for an organized management of input and output files without requiring significant modifications to the code.
 
+METEO_RAW: For meteorological input data.
+POLLUTION_RAW: For atmospheric pollution input data.
+PARQUET_FILES: For pre-processed data in Parquet format.
+OUTPUT_FILES: For output files in CSV format.
+    
 ## PREP_ATPAD
 
-## METEO_ATPAD
+The notebook **PREP_ATPAD** takes files from the **METEO_RAW** and **POLLUTION_RAW** directories to merge them into two dataframes: **meteo** and **pollution**. It then formats the column names and generates parquet format files, which will be stored in the **PARQUET_FILES** directory.
 
-## POLLUTION_ATPAD
+## METEO_ATPAD AND POLLUTION_ATPAD
+
 
 ## VIEW_ATPAD
+
+
 
 ## ORIGINAL DATA
 
