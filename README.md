@@ -26,6 +26,17 @@ The notebook **PREP_ATPAD** takes files from the **METEO_RAW** and **POLLUTION_R
 
 ## METEO_ATPAD AND POLLUTION_ATPAD
 
+The **METEO_ATPAD** and **POLLUTION_ATPAD** notebooks take input files from **PARQUET_FILES** and apply:  
+- Data cleaning and validation  
+- Outlier handling  
+
+Cleaned datasets can be filtered by **station** and **time range**.  
+
+Available features:  
+- Compute **24-hour averages** (with 75% completeness).  
+- Generate **diurnal cycles** (hourly medians).  
+
+Processed datasets can be saved as CSV files in the **OUTPUT_ATPAD** folder.
 
 ## VIEW_ATPAD
 
