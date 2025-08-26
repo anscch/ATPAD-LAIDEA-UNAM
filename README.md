@@ -41,6 +41,15 @@ Processed datasets can be saved as CSV files in the **OUTPUT_ATPAD** folder.
 ## VIEW_ATPAD
 
 
+**VIEW_ATPAD.ipynb** provides **basic visualization tools** for pollution and meteorological datasets previously processed with ATPAD.  
+
+The notebook allows users to:  
+- Load cleaned **pollution** and **meteorology** CSV output files.  
+- Select and filter data by **time period** and **region**.  
+- Generate a variety of exploratory plots, including:
+- **Wind roses** and **pollution roses**.
+- **Histograms** and **violin plots** for both meteorology and pollution data.  
+- **Time series** of pollutants and meteorological parameters across regions.  
 
 ## ORIGINAL DATA
 
