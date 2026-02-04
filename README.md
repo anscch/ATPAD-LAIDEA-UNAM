@@ -58,4 +58,4 @@ https://ruoa.unam.mx/
 ## License
 
 This project is licensed under the [MIT License (Non-Commercial)](./LICENSE).  
-Use of this software is restricted to non-commercial purposes. For commercial use, don't hesitate to get in touch with andres.caschac@gmail.com.
+Use of this software is restricted to non-commercial purposes.
